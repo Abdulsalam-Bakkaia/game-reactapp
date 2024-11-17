@@ -1,0 +1,11 @@
+.gaming-library-cards{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+@media (max-width:767px) {
+    .gaming-library-cards{
+        flex-direction: column;
+    }
+}

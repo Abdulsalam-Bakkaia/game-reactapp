@@ -1,0 +1,51 @@
+.fort-images {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.fort-images img {
+  width: 500px;
+  border-radius: var(--border-radius-primary);
+  padding: 5px;
+}
+
+.fort-Details {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.details-rate {
+  background-color: var(--color-darkest);
+  border-radius: var(--border-radius-primary);
+}
+
+.details-rate .card-wrapper {
+  background-color: var(--color-darkest);
+}
+
+.det-imgs {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.det-imgs img {
+  margin-top: 5px;
+  border-radius: var(--border-radius-primary);
+}
+
+.fort-Details p {
+  color: rgba(255, 255, 255, 0.2);
+  padding: 10px 0;
+}
+
+@media (max-width: 500px) {
+  .fort-images img {
+    max-width: 250px;
+  }
+  .det-imgs img {
+    max-width: 250px;
+  }
+  .fort-Details .button a {
+    font-size: 12px;
+  }
+}
